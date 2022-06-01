@@ -3,27 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ff57bbd-f637-4906-ac92-e83ce881e6cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q11PrimeNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q12PrimeNumbersInterval.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q13SumOfDigits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q14ReverseNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q15Factorial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q16ArmstrongNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q17PallindromeNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q18PrimeFactors.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q19PerfectNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q20LeapYear.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q21ArmstrongInterval.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q22PrintTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q23PrintTableInRange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q24FindPower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q25FibonacciTriangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q26FibonacciSeries.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q27FactorUsingConstructor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/31-May-2022/Q10MonthDayCalculation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/31-May-2022/Q7InsurancePolicy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/31-May-2022/Q8GreatestNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/31-May-2022/Q9PriceCalculation.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
