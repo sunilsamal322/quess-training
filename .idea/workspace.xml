@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ff57bbd-f637-4906-ac92-e83ce881e6cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q11PrimeNumber.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q12PrimeNumbersInterval.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q13SumOfDigits.java" beforeDir="false" />
@@ -20,7 +21,6 @@
       <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q26FibonacciSeries.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/1-June-2022/Q27FactorUsingConstructor.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/31-May-2022/Q10MonthDayCalculation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/31-May-2022/Q2FindInterest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/31-May-2022/Q3Reverse.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/31-May-2022/Q4FirstLastDigit.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/31-May-2022/Q5ValidTriangle.java" beforeDir="false" />
