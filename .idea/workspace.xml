@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ff57bbd-f637-4906-ac92-e83ce881e6cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/Q30ReverseArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/Q31CopyArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/Q32DuplicateElement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/Q33UniqueElements.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/Q34SecondLargestElement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/Q35TransposeMatrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/Q36NthPrimeNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/3-June-2012/Q30ReverseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/training-assessment/AlternatePrimeNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/training-assessment/Q29AlternatePrimeNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/training-assessment/TableUsingRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/training-assessment/Q28TableUsingRecursion.class" afterDir="false" />
-    </list>
+    <list default="true" id="3ff57bbd-f637-4906-ac92-e83ce881e6cc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
