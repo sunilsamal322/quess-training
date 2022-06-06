@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ff57bbd-f637-4906-ac92-e83ce881e6cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/training-assessment/June_6_2022/Q38MagicSquareFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/training-assessment/June_6_2022/Q38MagicSquareFinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/June_6_2022/Q38MagicSquareFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/June_6_2022/Q38MagicSquareFinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +130,11 @@
           <url>file://$PROJECT_DIR$/src/June_6_2022/Q38MagicSquareFinder.java</url>
           <line>5</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/June_6_2022/Q38MagicSquareFinder.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Q29AlternatePrimeNumbers.java</url>
