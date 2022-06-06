@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ff57bbd-f637-4906-ac92-e83ce881e6cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/6-june-2022/Q37CheckTopper.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,21 +38,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q37ProbableTopperCalculator">
-    <configuration name="Q33UniqueElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q33UniqueElements" />
-      <module name="training-assessment" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q34SecondLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q34SecondLargestElement" />
-      <module name="training-assessment" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Q38MagicSquareFinder">
     <configuration name="Q35TransposeMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q35TransposeMatrix" />
       <module name="training-assessment" />
@@ -88,13 +73,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q38MagicSquareFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="June_6_2022.Q38MagicSquareFinder" />
+      <module name="training-assessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="June_6_2022.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q38MagicSquareFinder" />
         <item itemvalue="Application.Q37ProbableTopperCalculator" />
         <item itemvalue="Application.Q37ProbableTopperCalculator" />
         <item itemvalue="Application.Q36NthPrimeNumber" />
         <item itemvalue="Application.Q35TransposeMatrix" />
-        <item itemvalue="Application.Q34SecondLargestElement" />
       </list>
     </recent_temporary>
   </component>
@@ -127,6 +125,11 @@
           <url>file://$PROJECT_DIR$/src/Q29AlternatePrimeNumbers.java</url>
           <line>2</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/June_6_2022/Q38MagicSquareFinder.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Q29AlternatePrimeNumbers.java</url>
