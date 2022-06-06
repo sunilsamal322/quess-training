@@ -3,6 +3,7 @@ package June_6_2022;
 import java.util.Scanner;
 
 public class Movie {
+
     private String title;
     private String studio;
     private String rating;
@@ -12,6 +13,12 @@ public class Movie {
         this.title=title;
         this.studio=studio;
         this.rating=rating;
+    }
+    Movie(String title,String studio)
+    {
+        this.title=title;
+        this.studio=studio;
+        this.rating="PG";
     }
 
     public static void main(String[] args) {
@@ -23,6 +30,7 @@ public class Movie {
         System.out.println("Enter ratings");
         String rating=scan.next();
         Movie film=new Movie(title,studio,rating);
+        Movie newFilm=new Movie(title,studio);
 
     }
 }
