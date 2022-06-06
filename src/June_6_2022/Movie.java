@@ -1,12 +1,5 @@
 package June_6_2022;
 
-/*
-Req3:Write a method getPg, which takes an array of base type Movie as its argument,
-and returns a new array of only those movies in the input array with a rating of “PG”.
-You may assume that the input array is full of Movie instances.
-The returned array need not be full.
- */
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -34,7 +27,7 @@ public class Movie {
 
         for(int row=0;row< movies.length;row++)
         {
-            if(movies[row].rating=="PG")
+            if(movies[row].rating.toLowerCase().startsWith("pg"))
             {
                 pgMovies.add(movies[row]);
             }
@@ -44,14 +37,25 @@ public class Movie {
 
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
-        System.out.println("Enter title");
-        String title=scan.next();
-        System.out.println("Enter studio name");
-        String studio= scan.next();
-        System.out.println("Enter ratings");
-        String rating=scan.next();
-        Movie film=new Movie(title,studio,rating);
-
-
+        System.out.println("Enter the number of movies you want to add");
+        int noOfMovies= Integer.parseInt(scan.nextLine());
+        Movie[] movies=new Movie[noOfMovies];
+        for(int movie=1;movie<=noOfMovies;movie++)
+        {
+            System.out.println("Enter title");
+            String title=scan.nextLine();
+            System.out.println("Enter studio name");
+            String studio= scan.nextLine();
+            System.out.println("Enter ratings");
+            String rating=scan.nextLine();
+            Movie film=new Movie(title,studio,rating);
+            movies[movie-1]=film;
+        }
+        ArrayList<Movie> pgMovies=getPg(movies);
+        for(Movie movie:pgMovies)
+        {
+            System.out.println(movie.title);
+            System.out.println();
+        }
     }
 }
