@@ -1,5 +1,13 @@
 package June_6_2022;
 
+/*
+Req3:Write a method getPg, which takes an array of base type Movie as its argument,
+and returns a new array of only those movies in the input array with a rating of “PG”.
+You may assume that the input array is full of Movie instances.
+The returned array need not be full.
+ */
+
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Movie {
@@ -20,6 +28,19 @@ public class Movie {
         this.studio=studio;
         this.rating="PG";
     }
+    static ArrayList<Movie> getPg(Movie[] movies)
+    {
+        ArrayList<Movie> pgMovies=new ArrayList<>();
+
+        for(int row=0;row< movies.length;row++)
+        {
+            if(movies[row].rating=="PG")
+            {
+                pgMovies.add(movies[row]);
+            }
+        }
+        return pgMovies;
+    }
 
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
@@ -30,7 +51,7 @@ public class Movie {
         System.out.println("Enter ratings");
         String rating=scan.next();
         Movie film=new Movie(title,studio,rating);
-        Movie newFilm=new Movie(title,studio);
+
 
     }
 }
