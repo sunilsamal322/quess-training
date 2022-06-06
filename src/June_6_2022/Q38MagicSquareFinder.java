@@ -20,6 +20,7 @@ public class Q38MagicSquareFinder {
         }
         ArrayList<Integer> storeAllSum=new ArrayList<>();
 
+
         for(int row=0;row<rowsColumnsNo;row++)
         {
             int sumOfRowsElements=0;
@@ -27,8 +28,19 @@ public class Q38MagicSquareFinder {
             {
                 sumOfRowsElements+=givenMatrix[row][column];
             }
-           storeAllSum.add(sumOfRowsElements);
+            if(row==0){
+               storeAllSum.add(sumOfRowsElements);
+            }
+            else{
+               if(!storeAllSum.contains(sumOfRowsElements))
+               {
+                   System.out.println("No");
+                   System.exit(0);
+               }
+           }
         }
+
+
         for(int row=0;row<rowsColumnsNo;row++)
         {
             int sumOfColumnsElements=0;
@@ -36,7 +48,11 @@ public class Q38MagicSquareFinder {
             {
                 sumOfColumnsElements+=givenMatrix[column][row];
             }
-            storeAllSum.add(sumOfColumnsElements);
+            if(!storeAllSum.contains(sumOfColumnsElements))
+            {
+                System.out.println("No");
+                System.exit(0);
+            }
         }
 
         int forwardDiagonalSum=0;
@@ -44,31 +60,23 @@ public class Q38MagicSquareFinder {
         {
             forwardDiagonalSum+=givenMatrix[i][i];
         }
-         storeAllSum.add(forwardDiagonalSum);
-
+        if(!storeAllSum.contains(forwardDiagonalSum))
+        {
+            System.out.println("No");
+            System.exit(0);
+        }
 
         int backwardDiagonalSum=0;
         for(int row=0,column=rowsColumnsNo-1;row<rowsColumnsNo && column>=0;row++,column--)
         {
             backwardDiagonalSum+=givenMatrix[row][column];
         }
-        storeAllSum.add(backwardDiagonalSum);
-
-        boolean isMagicSquare=true;
-        for(int i=0;i<storeAllSum.size()-1;i++)
+        if(!storeAllSum.contains(backwardDiagonalSum))
         {
-            for(int j=i+1;j<storeAllSum.size();j++)
-            {
-                if(storeAllSum.get(i)!=storeAllSum.get(j))
-                {
-                    isMagicSquare=false;
-                    break;
-                }
-            }
-        }
-        if(isMagicSquare)
-            System.out.println("Yes");
-        else
             System.out.println("No");
+            System.exit(0);
+        }
+
+        System.out.println("Yes");
     }
 }
