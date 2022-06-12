@@ -2,6 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ff57bbd-f637-4906-ac92-e83ce881e6cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/hackathon/june_10_2022/CustomException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/hackathon/june_10_2022/RockPaperScissorsGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/hackathon/june_10_2022/user-scores.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/june_10_2022/OxygenHydrogenGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/june_10_2022/Q48BuildingH2OMultiThread$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/june_10_2022/Q48BuildingH2OMultiThread$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/june_10_2022/Q48BuildingH2OMultiThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/june_9_2022/ColorThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/june_9_2022/FizzBuzz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/june_9_2022/Q45PrintColorText.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/june_9_2022/Q46FizzBuzzMultiThread$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/june_9_2022/Q46FizzBuzzMultiThread$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/june_9_2022/Q46FizzBuzzMultiThread$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/june_9_2022/Q46FizzBuzzMultiThread$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/june_9_2022/Q46FizzBuzzMultiThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/june_9_2022/Q47ZeroEvenOddMultiThread$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/june_9_2022/Q47ZeroEvenOddMultiThread$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/june_9_2022/Q47ZeroEvenOddMultiThread$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/june_9_2022/Q47ZeroEvenOddMultiThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/training-assessment/june_9_2022/ZeroEvenOdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june_9_2022/Q45PrintColorText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
