@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ff57bbd-f637-4906-ac92-e83ce881e6cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/training-assessment/June_6_2022/Movie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/June_6_2022/Q39Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/June_6_2022/Q39Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,24 +34,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q44HighestScoringWords">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo" />
-      <module name="training-assessment" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q41UsernamePasswordVerifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="june_8_2022.Q41UsernamePasswordVerifier" />
+  <component name="RunManager" selected="Application.Q48BuildingH2OMultiThread">
+    <configuration name="FizzBuzzMultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="june_9_2022.FizzBuzzMultiThread" />
       <module name="training-assessment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="june_8_2022.*" />
+          <option name="PATTERN" value="june_9_2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q42StringWithDigitsReplacer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="june_8_2022.Q42StringWithDigitsReplacer" />
+    <configuration name="Q45PrintColorText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="june_9_2022.Q45PrintColorText" />
       <module name="training-assessment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="june_8_2022.*" />
+          <option name="PATTERN" value="june_9_2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q43LikesDisplaySystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="june_8_2022.Q43LikesDisplaySystem" />
+    <configuration name="Q48BuildingH2OMultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="june_10_2022.Q48BuildingH2OMultiThread" />
       <module name="training-assessment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="june_8_2022.*" />
+          <option name="PATTERN" value="june_10_2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +81,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q44HighestScoringWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="june_8_2022.Q44HighestScoringWords" />
+    <configuration name="RockPaperScissorsGame (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackathon.june_10_2022.RockPaperScissorsGame" />
       <module name="training-assessment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="june_8_2022.*" />
+          <option name="PATTERN" value="hackathon.june_10_2022.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZeroEvenOddMultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="june_9_2022.ZeroEvenOddMultiThread" />
+      <module name="training-assessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="june_9_2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q44HighestScoringWords" />
-        <item itemvalue="Application.Q43LikesDisplaySystem" />
-        <item itemvalue="Application.Q42StringWithDigitsReplacer" />
-        <item itemvalue="Application.Q41UsernamePasswordVerifier" />
-        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Q48BuildingH2OMultiThread" />
+        <item itemvalue="Application.ZeroEvenOddMultiThread" />
+        <item itemvalue="Application.FizzBuzzMultiThread" />
+        <item itemvalue="Application.Q45PrintColorText" />
+        <item itemvalue="Application.RockPaperScissorsGame (1)" />
       </list>
     </recent_temporary>
   </component>
