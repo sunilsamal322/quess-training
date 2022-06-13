@@ -7,11 +7,45 @@ import java.util.*;
 
 public class RockPaperScissorsGame {
 
+    private static void showLeaderBoard()
+    {
+        try(FileInputStream fileInputStream = new FileInputStream(AppConstants.filePath))
+        {
+            Properties properties=new Properties();
+            properties.load(fileInputStream);
+            int highestScoreInLeaderboard=0;
+            String playerName="";
+
+            for(String player : properties.stringPropertyNames())
+            {
+                int playerScore=Integer.parseInt(properties.getProperty(player));
+                if(playerScore>highestScoreInLeaderboard)
+                {
+                    highestScoreInLeaderboard=playerScore;
+                    playerName=player;
+                }
+            }
+            if(playerName!="" && highestScoreInLeaderboard!=0) {
+
+                System.out.println(AppConstants.COLOR_BLUE + "Top Scorer in the game " + AppConstants.COLOR_RESET);
+                System.out.println(AppConstants.COLOR_YELLOW + "Name : " + playerName +AppConstants.COLOR_RESET);
+                System.out.println(AppConstants.COLOR_YELLOW + "Score : " + highestScoreInLeaderboard + AppConstants.COLOR_RESET);
+                System.out.println(AppConstants.COLOR_CYAN + "------------------------------------------" + AppConstants.COLOR_RESET);
+            }
+        }
+        catch (IOException exception)
+        {
+            //   System.out.println(COLOR_RED+"Something went wrong !unable to fetch data from leaderboard "+COLOR_RESET);
+        }
+    }
+
     public static void main(String[] args) {
 
         System.out.println("===================================================");
         System.out.println(AppConstants.COLOR_RED+">>>>>>>>>>ROCK-------PAPER-------SCISSORS<<<<<<<<<<"+AppConstants.COLOR_RESET);
         System.out.println("===================================================");
+
+        showLeaderBoard();
 
         System.out.println("Enter your name : ");
         Scanner scan=new Scanner(System.in);
