@@ -1,6 +1,7 @@
 package hackathon.june_10_2022;
 
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.*;
 
@@ -48,6 +49,10 @@ public class RockPaperScissorsGame {
             }
         }
 
+        String userHighestScoreInString=null;
+        int userHighestScore=0;
+
+        Properties properties=new Properties();
 
         int userCurrentGameScore=0;
 
@@ -132,6 +137,47 @@ public class RockPaperScissorsGame {
         {
             System.out.println(AppConstants.COLOR_BLUE + ">>> Thank you for playing our game <<<" + AppConstants.COLOR_RESET);
             return;
+        }
+
+        if(userHighestScoreInString==null)
+        {
+            if(userCurrentGameScore>0)
+            {
+                System.out.println(AppConstants.COLOR_YELLOW+"Congratulations, your new high score is "+userCurrentGameScore+AppConstants.COLOR_RESET);
+                try(FileOutputStream fileOutputStream = new FileOutputStream(AppConstants.filePath)) {
+                    properties.setProperty(userName,String.valueOf(userCurrentGameScore));
+                    properties.store(fileOutputStream,null);
+                }
+                catch (IOException exception)
+                {
+                    System.out.println(AppConstants.COLOR_RED+"Something went wrong! We can't able to save your score"+AppConstants.COLOR_RESET);
+                }
+            }
+            else
+            {
+                System.out.println(AppConstants.COLOR_YELLOW+"Your score "+userCurrentGameScore+AppConstants.COLOR_RESET);
+            }
+        }
+        else
+        {
+            if(userCurrentGameScore>userHighestScore)
+            {
+                System.out.println(AppConstants.COLOR_CYAN+"Your score "+userCurrentGameScore+AppConstants.COLOR_RESET);
+                System.out.println(AppConstants.COLOR_YELLOW+"Congratulations, your new high score is "+userCurrentGameScore+AppConstants.COLOR_RESET);
+                try(FileOutputStream fileOutputStream=new FileOutputStream(AppConstants.filePath))
+                {
+                    properties.setProperty(userName,String.valueOf(userCurrentGameScore));
+                    properties.store(fileOutputStream,null);
+                }
+                catch (IOException exception)
+                {
+                    System.out.println(AppConstants.COLOR_RED+"Something went wrong! We can't able to save your score"+AppConstants.COLOR_RESET);
+                }
+            }
+            else
+            {
+                System.out.println(AppConstants.COLOR_YELLOW+"Your score "+userCurrentGameScore+AppConstants.COLOR_RESET);
+            }
         }
     }
 }
