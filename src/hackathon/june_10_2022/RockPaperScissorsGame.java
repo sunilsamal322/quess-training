@@ -1,6 +1,8 @@
 package hackathon.june_10_2022;
 
-import java.util.Scanner;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.*;
 
 public class RockPaperScissorsGame {
 
@@ -44,6 +46,40 @@ public class RockPaperScissorsGame {
             else {
                 break;
             }
+        }
+
+
+        int userCurrentGameScore=0;
+
+        HashSet<String> possibleDrawOptions=new HashSet<>();
+        possibleDrawOptions.add("rock");
+        possibleDrawOptions.add("paper");
+        possibleDrawOptions.add("scissors");
+
+        System.out.println("Enter s for start game and any other key for quit");
+        String userWantsToPlay= scan.next().toLowerCase(Locale.ROOT);
+
+        if(userWantsToPlay.equals("s"))
+        {
+            x:while (true) {
+                Random random = new Random();
+                int randomNumberForOpponent = random.nextInt(1, 4);
+
+                String opponentChoice = "";
+
+                if (randomNumberForOpponent == 1) {
+                    opponentChoice = "rock";
+                } else if (randomNumberForOpponent == 2) {
+                    opponentChoice = "paper";
+                } else if (randomNumberForOpponent == 3) {
+                    opponentChoice = "scissors";
+                }
+            }
+        }
+        else
+        {
+            System.out.println(AppConstants.COLOR_BLUE + ">>> Thank you for playing our game <<<" + AppConstants.COLOR_RESET);
+            return;
         }
     }
 }

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ff57bbd-f637-4906-ac92-e83ce881e6cc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/hackathon/june_10_2022.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hackathon/june_10_2022/RockPaperScissorsGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hackathon/june_10_2022/RockPaperScissorsGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
