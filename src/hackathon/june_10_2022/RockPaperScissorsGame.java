@@ -74,6 +74,58 @@ public class RockPaperScissorsGame {
                 } else if (randomNumberForOpponent == 3) {
                     opponentChoice = "scissors";
                 }
+
+                System.out.println("Choose one option from these 3 options Rock Paper Scissors");
+                String userChoice=scan.next().trim().toLowerCase();
+
+                if(userChoice.equals(opponentChoice))
+                {
+                    System.out.println(AppConstants.COLOR_PURPLE+"Opponent choose "+opponentChoice+AppConstants.COLOR_RESET);
+                    System.out.println(AppConstants.COLOR_BLUE+"You Choose "+userChoice+AppConstants.COLOR_RESET);
+                    System.out.println(AppConstants.COLOR_CYAN+"Result : It is a draw"+AppConstants.COLOR_RESET);
+                }
+                else if((userChoice.equals("rock") && opponentChoice.equals("scissors")) || (userChoice.equals("scissors") && opponentChoice.equals("paper"))
+                        || (userChoice.equals("paper") && opponentChoice.equals("rock")))
+                {
+                    userCurrentGameScore+=10;
+                    System.out.println(AppConstants.COLOR_PURPLE+"Opponent choose "+opponentChoice+AppConstants.COLOR_RESET);
+                    System.out.println(AppConstants.COLOR_BLUE+"You Choose "+userChoice+AppConstants.COLOR_RESET);
+                    System.out.println(AppConstants.COLOR_YELLOW+"Result : You win"+AppConstants.COLOR_RESET);
+                }
+                else if(!possibleDrawOptions.contains(userChoice))
+                {
+                    System.out.println(AppConstants.COLOR_RED+"your move is not valid"+AppConstants.COLOR_RESET);
+                    continue x;
+                }
+                else {
+                    System.out.println(AppConstants.COLOR_PURPLE+"Opponent choose "+opponentChoice+AppConstants.COLOR_RESET);
+                    System.out.println(AppConstants.COLOR_BLUE+"You Choose "+userChoice+AppConstants.COLOR_RESET);
+                    System.out.println(AppConstants.COLOR_RED+"Result : You lost"+AppConstants.COLOR_RESET);
+                }
+
+                System.out.println("Do you want to continue? Enter Y for Yes | N for No");
+                String userOption= scan.next().toLowerCase().trim();
+                if(userOption.equals("n")){
+                    break;
+                }
+                else if(!userOption.equals("y")) {
+                    System.out.println(AppConstants.COLOR_RED + "You choose invalid option,Please Enter Y for Yes | N for No" + AppConstants.COLOR_RESET);
+                    boolean userWantToExit = false;
+                    while (true) {
+                        userOption = scan.next().trim().toLowerCase();
+                        if (userOption.equals("n")) {
+                            userWantToExit = true;
+                            break;
+                        } else if (userOption.equals("y")) {
+                            break;
+                        } else {
+                            System.out.println(AppConstants.COLOR_RED + "You choose invalid option,Please Enter Y for Yes | N for No" + AppConstants.COLOR_RESET);
+                        }
+                    }
+                    if (userWantToExit) {
+                        break;
+                    }
+                }
             }
         }
         else
