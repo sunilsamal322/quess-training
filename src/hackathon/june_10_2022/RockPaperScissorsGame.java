@@ -88,6 +88,26 @@ public class RockPaperScissorsGame {
 
         Properties properties=new Properties();
 
+        try(FileInputStream fileInputStream = new FileInputStream(AppConstants.filePath))
+        {
+            properties.load(fileInputStream);
+            userHighestScoreInString=properties.getProperty(userName);
+
+            if(userHighestScoreInString!=null)
+            {
+                userHighestScore=Integer.parseInt(userHighestScoreInString);
+                System.out.println(AppConstants.COLOR_BLUE+"Your high score is "+userHighestScore+AppConstants.COLOR_RESET);
+                System.out.println(AppConstants.COLOR_YELLOW+"Welcome back, "+userName+AppConstants.COLOR_RESET);
+            }
+            else {
+                System.out.println(AppConstants.COLOR_YELLOW+"Welcome, "+userName+AppConstants.COLOR_RESET);
+            }
+        }
+        catch (IOException exception)
+        {
+            System.out.println(AppConstants.COLOR_YELLOW+"Welcome, "+userName+AppConstants.COLOR_RESET);
+        }
+
         int userCurrentGameScore=0;
 
         HashSet<String> possibleDrawOptions=new HashSet<>();
@@ -213,5 +233,6 @@ public class RockPaperScissorsGame {
                 System.out.println(AppConstants.COLOR_YELLOW+"Your score "+userCurrentGameScore+AppConstants.COLOR_RESET);
             }
         }
+        System.out.println(AppConstants.COLOR_BLUE+">>> Thank you for playing our game <<<"+AppConstants.COLOR_RESET);
     }
 }
