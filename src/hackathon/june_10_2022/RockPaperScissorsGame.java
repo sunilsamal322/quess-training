@@ -25,7 +25,7 @@ public class RockPaperScissorsGame {
                     playerName=player;
                 }
             }
-            if(playerName!="" && highestScoreInLeaderboard!=0) {
+            if(playerName.equals("") && highestScoreInLeaderboard!=0) {
 
                 System.out.println(AppConstants.COLOR_BLUE + "Top Scorer in the game " + AppConstants.COLOR_RESET);
                 System.out.println(AppConstants.COLOR_YELLOW + "Name : " + playerName +AppConstants.COLOR_RESET);
